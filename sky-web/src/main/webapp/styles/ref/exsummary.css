@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* ------------------------------
+ Exサマリ 共通
+------------------------------ */
+
+/* アウトライン */
+.exsummary {
+	width: auto;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	line-height: initial;
+	font-size: 12px;
+}
+.exsummary .exsummary__head {
+}
+.exsummary .exsummary__main {
+	padding: 10px;
+}
+
+/* ヘッダ部分 */
+.exsummary .exsummary__head > h1 {
+	width: 100%;
+	padding: 10px;
+	background-color: #efefef;
+	font-size: 14px;
+}
+.exsummary .exsummary__head .search-form {
+	margin: 10px 10px 0 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #d8dde2;
+}
+
+/* 検索フォーム */
+.exsummary .search-form .search-form__main {
+	display: inline-block;
+}
+.exsummary .search-form .search-form__foot {
+	display: inline-block;
+}
+.exsummary .search-form .search-form__main .search-form__selectbox {
+	display: inline-block;
+}
+.exsummary .search-form .search-form__foot .search-form__btn {
+	padding: 3.5px 8px;
+	letter-spacing: 2px;
+}
+
+/* メッセージ */
+.exsummary .exsummary-msg {
+	border: solid 1px #d8dde2;
+	border-radius: 5px;
+	background-color: #f7f8f8;
+	padding: 10px;
+	margin: 5px 10px;
+}
+.exsummary .exsummary-msg .exsummary-msg__head {
+	margin-bottom: 5px;
+}
+.exsummary .exsummary-msg .exsummary-msg__head * {
+}
+.exsummary .exsummary-msg .exsummary-msg__main * {
+}
+.exsummary .exsummary-msg .exsummary-msg__main ul.rescure-list {
+	margin: 5px 30px;
+}
+.exsummary .exsummary-msg .exsummary-msg__main ul.rescure-list > li {
+	list-style: disc;
+	padding: 0;
+	cursor: default;
+}
+.exsummary .exsummary-msg .exsummary-msg__main ul.rescure-list > li:hover {
+	background-color: inherit;
+}
+
+/* その他 */
+.exsummary .clearfix {
+	height:1px;
+	min-height:1px;
+	zoom:1;
+}
+.exsummary .clearfix:after {
+	clear:both;
+	content:".";
+	display:block;
+	font-size:0.1em;
+	height:0.1px;
+	line-height:0;
+	visibility:hidden;
+}
+
+
+/***** 個別サマリの共通デザインが決まったら、以下に追記していく *****/
+
+
+/* ------------------------------
+ Exサマリ LTV
+------------------------------ */

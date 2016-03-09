@@ -1,0 +1,315 @@
+/*----------------------
+base
+------------------------*/
+.AImain__area thead tr th {
+	color: #66656E;
+	background-color: #f5f5f5;
+	border-bottom: double #d8dde2;
+	font-size: 12px;
+	font-weight: bold;
+}
+.AImain__area thead tr th i {
+	font-size: 17px;
+}
+.AImain__area tbody tr th,
+.AImain__area tbody tr td {
+	font-size: 12px;
+	color: #66656E;
+	line-height: 1;
+}
+.AImain__area tbody tr th {
+	font-weight: bold;
+}
+.AImain__area tbody tr td {
+	text-align: left;
+}
+.AImain__area tbody tr td p {
+	line-height: initial;
+}
+.AImain__area tbody tr td span.bold {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: normal;
+	color: #368DC3;
+}
+.AImain__area tbody tr:hover {
+	background-color: #F1F7FC;
+}
+.AImain__area fieldset[disabled] input,
+.AImain__area fieldset[disabled] select {
+	background-color: #FAFAFA;
+	color: #777777;
+}
+.AImain__area input {
+	padding: 3px;
+	background: #ffffff;
+	border-color: #368DC3 !important;
+}
+.AImain__area .w100pixel {
+	width: 100px;
+}
+.AImain__area .w160pixel {
+	width: 160px;
+}
+.AImain__area .w190pixel {
+	width: 190px;
+}
+.AImain__area .w380pixel {
+	width: 380px;
+}
+.AImain__area .rule {
+	border-bottom: 1px solid #d8dde2;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 15px;
+	margin-bottom: -15px;
+}
+.AImain__area .comma::after {
+	content: ",";
+	margin-right: 1em;
+}
+.AImain__area .mb10 {
+	margin-bottom: 10px;
+}
+.AImain__area .clearfix {
+	min-height: 1px;
+	zoom: 1;
+}
+.AImain__area .clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0.1em;
+	height: 0.1px;
+	line-height: 0;
+	visibility: hidden;
+}
+* html .AImain__area  .clearfix {
+	height: 1px;
+}
+.AImain__area .message {
+	padding: 4px 2px 4px 2px;
+	border-radius: 4px;
+	background-color: #f66867;
+}
+.AImain__area .message * {
+	color: #ffffff;
+	padding: 3px 4px 2px 6px;
+	cursor: auto;
+	font-size: 12px;
+}
+.AImain__area .message:before {
+	font-family: "icon-Regular";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	font-variant: normal;
+	content: "◀︎";
+	position: relative;
+	left: 12px;
+	color: #f66867;
+	top: 2px;
+	font-size: 14px;
+	margin: 0px 0 4px -22px;
+	width: 10px;
+	float: left;
+}
+
+.AImain__area .tooltip {
+  font-size: 12px;
+  color: #045681;
+  line-height: 1.3em;
+  border: 1px solid #178BCA;
+  background-color: white;
+  padding: 5px 8px 4px 8px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  opacity: .8;
+}
+/*----------------------*/
+
+.AImain__area {
+	height: 100%;
+	overflow: auto;
+	font-size: 12px;
+	color: #66656E;
+}
+.AImain__header {
+	position: fixed;
+	top: 73px;
+	width: auto;
+	background-color: #FFFFFF;
+	z-index: 10000;
+	min-width: 940px;
+}
+.AImain__area-title {
+	font-size: 14px;
+	padding: 15px;	/*height: 30px;*/
+	width: auto;
+}
+.AImain__contents-title > span {
+	padding: 2px;
+	border-radius: 4px;
+	background-color: #368DC3;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+/*------------ ボタン ------------*/
+.AImain__area button {
+	background: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.AImain__item-btn {
+	font-weight: 700;
+	color: #368DC3;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
+	-ms-transition: color .2s ease;
+	transition: color .2s ease;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	font-size: 12px;
+	height: 27px;
+	width: 100%;
+}
+.AImain__item-btn i {
+	color: #368DC3;
+}
+.AImain__item-btn:hover {
+	background-color: #F1F7FC;
+}
+
+/*------------ 入力画面 ------------*/
+.AImain__area .i-auxiliary {
+	color: #368DC3;
+	content: none !important;
+	cursor: pointer;
+}
+.AImain__area .AImain__contents-title:not(:first-child):hover {
+	background-color: #ebebeb;
+}
+.AImain__area .AImain__contents-title:hover i {
+	color: #47B2F5;
+}
+.AImain__reportBox{
+	position: absolute;
+	top: 81px;
+	bottom: 0;
+	overflow: auto;
+}
+.AImain__area .i-auxiliary:after {
+	left: 0;
+	right: 0;
+	height: auto;
+	overflow: auto;
+	min-width: 940px;
+}
+.AImain__reportBox .listStatus {
+	max-height: 0px;
+	transition: max-height 0.5s ease;
+	-webkit-transition: max-height 0.5s ease 0.0s;
+	-moz-transition: max-height 0.5s ease 0.0s;
+	-ms-transition: max-height 0.5s ease 0.0s;
+	overflow: hidden;
+}
+.AImain__reportBox .listStatus.openList {
+	max-height: 270px;
+	transition: max-height 0.5s ease;
+	-webkit-transition: max-height 0.5s ease 0.0s;
+	-moz-transition: max-height 0.5s ease 0.0s;
+	-ms-transition: max-height 0.5s ease 0.0s;
+	overflow: auto;
+}
+.AImain__contentsBox {
+	border: solid 1px #EBEBEB;
+	width: 90%;
+}
+.AImain__contents-title {
+	background-color: #F3F3F3;
+	padding: 10px;
+	color: #66656E;
+	font-weight: bold;
+}
+/*------------ 結果画面 ------------*/
+.AImain__resultBox {
+	position: absolute;
+	top: 81px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	overflow-y: auto;
+	min-width: 940px;
+}
+.AImain__contents-analysisValue{
+	width: calc( 25% - 20px );
+	float: left;
+	margin: 0 10px;
+}
+.AImain__contents-analysisValue dl {
+	background-color: #C1DDF1;
+	border-radius: 100px;
+	padding: 43px 0px;
+	height: 180px;
+	width: 180px;
+	margin: 0 auto;
+}
+.AImain__contents-analysisValue dt, 
+.AImain__contents-analysisValue dd {
+	text-align: center;
+}
+.AImain__contents-analysisValue dt {
+	color: #368DC3;
+	font-size: 14px;
+}
+.AImain__contents-analysisValue dd {
+	font-family: DIN;
+	font-size: 57px;
+	padding-bottom: 8px;
+	color: #66656E;
+}
+.AImain__contents-analysisValue dd > span {
+	font-size: 15px;
+}
+
+.AImain__area .tableDiv{
+	margin-top: 20px;
+}
+.AImain__contents-challenge tbody tr:hover {
+	cursor: pointer;
+}
+/*------------ 詳細画面 ------------*/
+
+.AImain__area-celectionTitle{
+	font-weight:bold; 
+	font-size:14px;
+}
+.AImain__item-plan {
+	color: #368DC3;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 3px;
+}
+.AImain__improvementBox{
+	top: 138px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: auto;
+	height: auto;
+	position: absolute;
+}
+.AImain__improvementBox tr td i{
+	cursor: default;
+}
+.AImain__item-number{
+	background:#f5f5f5; 
+	width:2%;
+	vertical-align: middle;
+	border-top: solid 1px #FFFFFF;
+	text-align: center;
+}

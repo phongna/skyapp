@@ -1,0 +1,144 @@
+/*#contents {
+	overflow: scroll !important;
+	padding-bottom: 40px;
+}*/
+
+#contents .notice__main-area {
+	height: 100%;/*overflow: scroll;*/
+}
+
+#contents .notice__main-block {
+	min-width: 1200px;
+	max-width: 1500px;
+	padding: 20px;
+	margin: 0 auto;
+	height: auto;
+}
+
+#contents .notice__main-block h1,
+#contents .notice__main-block h2 {
+	padding: 10px;
+	color: #4f4f4f;
+	font-size: 14px;
+}
+
+#contents .notice__main-block ul li {
+	color: #000000;
+	font-size: 12px;
+	line-height: initial;
+	padding: 0;
+}
+
+#contents .notice__table-block {
+	background-color: #FCFCFC;
+}
+
+#contents .notice__table-block * {
+	text-align: center;
+	font-size: 12px !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+#contents .notice__table-block th {
+	background-color: #F5F5F5;
+}
+
+#contents .notice__table-block > tbody dt,
+#contents .notice__table-block > tbody dd {
+	text-align: left !important;
+	line-height: normal;
+}
+
+#contents .notice__table-block > tbody dt {
+	padding: 5px;
+	padding-left: 0px;
+	font-weight: bold;
+}
+
+#contents .notice__table-block > tbody dt:hover {
+    cursor: pointer;
+	text-decoration: underline;
+}
+
+#contents .notice__table-block > tbody dd {
+	line-height: normal;
+}
+
+/*----------------------
+
+ステータス
+
+----------------------*/
+
+/*背景-未読時に設置*/
+#contents .notice__table-block .notice__new-sentence {
+	background-color: #FFFFFF;
+}
+
+/*タグ*/
+#contents .notice__table-block span {
+	font-size: 11px;
+	padding: 3px 8px;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#contents .notice__item-tag1 {
+	background-color: #6BAECF;
+	color: #FFFFFF;
+}
+
+/*リリース*/
+#contents .notice__item-tag2 {
+	background-color: #24A696;
+	color: #FFFFFF;
+}
+
+/*告知*/
+#contents .notice__item-tag3 {
+	background-color: #DC815C;
+	color: #FFFFFF;
+}
+
+/*障害*/
+#contents .notice__item-tag4 {
+	background-color: #E3A719;
+	color: #FFFFFF;
+}
+
+/*メンテナンス*/
+#contents .notice__item-tag5 {
+	background-color: #A5537C;
+	color: #FFFFFF;
+}
+
+/*重要*/
+
+/*開閉*/
+
+.notice__expand {
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 0.5s ease 0.0s;
+	-webkit-transition: height 0.5s ease 0.0s;
+	-moz-transition: max-height  0.5s ease 0.0s;
+	-ms-transition: max-height  0.5s ease 0.0s;
+}
+
+.notice__expand.open,
+.notice__expand2.open.notice__expand3.open,
+.notice__expand4.open,
+.notice__expand5.open.notice__expand6.open,
+.notice__expand7.open,
+.notice__expand8.open.notice__expand9.open,
+.notice__expand10.open {
+	max-height: 1000px;
+	transition: max-height  0.5s ease;
+	-webkit-transition: max-height  0.5s ease 0.0s;
+	-moz-transition: max-height  0.5s ease 0.0s;
+	-ms-transition: max-height  0.5s ease 0.0s;
+}
+
+/*IDには、anaysis/promotion/crm/cms/lpo/maなどを使用して下さい*/

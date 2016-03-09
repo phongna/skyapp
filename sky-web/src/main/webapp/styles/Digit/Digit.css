@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "Digit";
+	src: url("Digit.eot");
+	src: url("Digit.eot?#iefix") format("embedded-opentype"),
+	     url("Digit.woff") format("woff"),
+	     url("Digit.ttf") format("truetype"),
+	     url("Digit.svg#digit") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="digit-"]:before, [class*=" digit-"]:before {
+	font-family: "Digit";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	font-variant: normal;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smooth:always;
+	-webkit-text-size-adjust: none;
+}
+
+.digit-fallout:before { content: "\F001"; }
+.digit-pageflow:before { content: "\F002"; }

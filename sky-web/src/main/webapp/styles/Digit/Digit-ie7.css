@@ -1,0 +1,10 @@
+@charset "UTF-8";
+[class^="digit-"], [class*=" digit-"] {
+	font-family: "Digit";
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1em;
+}
+
+.digit-fallout { *zoom: expression( this.runtimeStyle["zoom"] = "1", this.innerHTML = "&#xF001;&nbsp;"); }
+.digit-pageflow { *zoom: expression( this.runtimeStyle["zoom"] = "1", this.innerHTML = "&#xF002;&nbsp;"); }

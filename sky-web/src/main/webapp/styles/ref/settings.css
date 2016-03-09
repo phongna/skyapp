@@ -1,0 +1,432 @@
+.icon-close:before {
+  padding-right: 0 !important;
+}
+
+/*div[id^=popupDescription]*/
+#popupDescription_route,
+#popupDescription_channels_score,
+#popupDescription_conversion_list,
+#popupDescription_timescale_minute,
+#popupDescription_timescale_hour,
+#popupDescription_timescale_day,
+#popupDescription_timescale_week,
+#popupDescription_timescale_month,
+#popupDescription_segment,
+#popupDescription_lookBackDay,
+#popupDescription_icon-config,
+#popupDescription_icon-tool,
+#popupDescription_icon-devices,
+#popupDescription_icon-user,
+#popupDescription_icon-share,
+#popupDescription_icon-link, 
+#popupDescription_icon-upload{
+  display:none;
+  position:absolute;
+  top:-145%;
+  left:-15%;
+  width:198px;
+  height:130%;
+  background-color:#f4f4f4;
+  color:#368DC3;
+  /* font-weight:bold; */
+  border:1px solid #d6dbe0;
+  border-radius:10px;
+  box-shadow:rgb(136, 136, 136) 1px 2px 10px;
+  font-size:11px;
+  line-height:1;
+  padding:8px;
+  z-index:2000;
+}
+
+#popupDescription_timescale_minute,
+#popupDescription_timescale_hour,
+#popupDescription_timescale_day,
+#popupDescription_timescale_week,
+#popupDescription_timescale_month,
+#popupDescription_route,
+#popupDescription_channels_score,
+#popupDescription_conversion_list{
+  top:120%;
+  left:40%;
+}
+
+#popupDescription_segment{
+  top:-110%;
+  left:0%;
+  width:100%;
+  height:100%;
+}
+
+.popup_timescale_minute:hover #popupDescription_timescale_minute,
+.popup_timescale_hour:hover #popupDescription_timescale_hour,
+.popup_timescale_day:hover #popupDescription_timescale_day,
+.popup_timescale_week:hover #popupDescription_timescale_week,
+.popup_timescale_month:hover #popupDescription_timescale_month,
+.popup_segment:hover #popupDescription_segment,
+.popup_route:hover #popupDescription_route,
+.popup_channels_score:hover #popupDescription_channels_score,
+.popup_conversion_list:hover #popupDescription_conversion_list,
+.popup_lookBackDay:hover #popupDescription_lookBackDay,
+.popup_icon-config:hover #popupDescription_icon-config,
+.popup_icon-tool:hover #popupDescription_icon-tool,
+.popup_icon-devices:hover #popupDescription_icon-devices,
+.popup_icon-user:hover #popupDescription_icon-user,
+.popup_icon-share:hover #popupDescription_icon-share,
+.popup_icon-link:hover #popupDescription_icon-link,
+.popup_icon-upload:hover #popupDescription_icon-upload {
+  display:block;
+  animation:popupDescription 1s linear 1;
+  -webkit-animation:popupDescription 1s linear 1;
+  -moz-animation:popupDescription 1s linear 1;
+  -ms-animation:popupDescription 1s linear 1;
+  -o-animation:popupDescription 1s linear 1;
+}
+
+
+.popup_segment:hover #popupDescription_segment:before,
+.popup_lookBackDay:hover #popupDescription_lookBackDay:before,
+.popup_icon-config:hover #popupDescription_icon-config:before,
+.popup_icon-devices:hover #popupDescription_icon-devices:before,
+.popup_icon-user:hover #popupDescription_icon-user:before,
+.popup_icon-share:hover #popupDescription_icon-share:before,
+.popup_icon-link:hover #popupDescription_icon-link:before,
+.popup_icon-upload:hover #popupDescription_icon-upload:before,
+{
+  content: "";
+  display: block;
+  width:0;
+  height:0;
+  border-top:12px solid #d6dbe0;
+  border-left:12px solid transparent;
+  border-right:12px solid transparent;
+  position: absolute;
+  left:8px;
+  bottom:-12px;
+}
+.popup_segment:hover #popupDescription_segment:after,
+.popup_lookBackDay:hover #popupDescription_lookBackDay:after,
+.popup_icon-config:hover #popupDescription_icon-config:after,
+.popup_icon-tool:hover #popupDescription_icon-tool:after,
+.popup_icon-devices:hover #popupDescription_icon-devices:after,
+.popup_icon-user:hover #popupDescription_icon-user:after,
+.popup_icon-share:hover #popupDescription_icon-share:after,
+.popup_icon-link:hover #popupDescription_icon-link:after,
+.popup_icon-upload:hover #popupDescription_icon-upload:after
+{
+  content: "";
+  display: block;
+  width:0;
+  height:0;
+  border-top:10px solid #f4f4f4;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  position: absolute;
+  left:10px;
+  bottom:-10px;
+}
+
+.popup_timescale_minute:hover #popupDescription_timescale_minute:before,
+.popup_timescale_hour:hover #popupDescription_timescale_hour:before,
+.popup_timescale_day:hover #popupDescription_timescale_day:before,
+.popup_timescale_week:hover #popupDescription_timescale_week:before,
+.popup_timescale_month:hover #popupDescription_timescale_month:before,
+.popup_route:hover #popupDescription_route:before,
+.popup_channels_score:hover #popupDescription_channels_score:before,
+.popup_conversion_list:hover #popupDescription_conversion_list:before{
+  content: "";
+  display: block;
+  width:0;
+  height:0;
+  border-bottom:12px solid #d6dbe0;
+  border-left:12px solid transparent;
+  border-right:12px solid transparent;
+  position: absolute;
+  left:8px;
+  top:-12px;
+}
+.popup_timescale_minute:hover #popupDescription_timescale_minute:after,
+.popup_timescale_hour:hover #popupDescription_timescale_hour:after,
+.popup_timescale_day:hover #popupDescription_timescale_day:after,
+.popup_timescale_week:hover #popupDescription_timescale_week:after,
+.popup_timescale_month:hover #popupDescription_timescale_month:after,
+.popup_route:hover #popupDescription_route:after,
+.popup_channels_score:hover #popupDescription_channels_score:after,
+.popup_conversion_list:hover #popupDescription_conversion_list:after{
+  content: "";
+  display: block;
+  width:0;
+  height:0;
+  border-bottom:10px solid #f4f4f4;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  position: absolute;
+  left:10px;
+  top:-10px;
+}
+
+@keyframes popupDescription{
+  0%{opacity:0}
+  90%{opacity:0}
+  100%{opacity:1}
+}
+@-webkit-keyframes popupDescription{
+  0%{opacity:0}
+  90%{opacity:0}
+  100%{opacity:1}
+}
+@-moz-keyframes popupDescription{
+  0%{opacity:0}
+  90%{opacity:0}
+  100%{opacity:1}
+}
+@-ms-keyframes popupDescription{
+  0%{opacity:0}
+  90%{opacity:0}
+  100%{opacity:1}
+}
+@-o-keyframes popupDescription{
+  0%{opacity:0}
+  90%{opacity:0}
+  100%{opacity:1}
+}
+
+.channelTypeA,
+.channelTypeB,
+.channelTypeC,
+.channelTypeD,
+.channelTypeE,
+.channelTypeF,
+.channelTypeG,
+.channelTypeH,
+.channelTypeI,
+.channelTypeJ,
+.channelTypeK,
+.channelTypeL {
+  color:#ffffff;
+  border:none;
+  /* border-radius:18px; */
+  font-size:11px;
+  padding:5px;
+  text-align:center;
+  /* margin:0px 4px 4px 4px; */
+}
+
+.channelTypeA:hover,
+.channelTypeB:hover,
+.channelTypeC:hover,
+.channelTypeD:hover,
+.channelTypeE:hover,
+.channelTypeF:hover,
+.channelTypeG:hover,
+.channelTypeH:hover,
+.channelTypeI:hover,
+.channelTypeJ:hover,
+.channelTypeK:hover,
+.channelTypeL:hover {
+  border:none;
+  box-shadow: 0 0 6px #0088ff;
+}
+
+.channelTypeA {
+  background-color:rgb(198, 109, 77) !important;/*エビ赤*/
+}
+.channelTypeB {
+  background-color:rgb(206, 160, 93) !important;/*黄土オレンジ*/
+}
+.channelTypeC {
+  background-color:rgb(213, 203, 103) !important;/*黄緑*/
+}
+.channelTypeD {
+  background-color:rgb(161, 190, 112) !important;/*緑*/
+}
+.channelTypeE {
+  background-color:rgb(79, 160, 158) !important;/*青緑*/
+}
+.channelTypeF {
+  background-color:rgb(89, 129, 174) !important;/*青*/
+}
+.channelTypeG {
+  background-color:rgb(100, 88, 145) !important;/*紫*/
+}
+.channelTypeH {
+  background-color:rgb(161, 104, 154) !important;/*赤紫*/
+}
+.channelTypeI {
+  background-color:rgb(72, 111, 172) !important;/*青*/
+}
+.channelTypeJ {
+  background-color:rgb(72, 111, 172) !important;
+}
+.channelTypeK {
+  background-color:rgb(72, 111, 172) !important;
+}
+.channelTypeL {
+  background-color:rgb(72, 111, 172) !important;
+}
+.channelTypeA:before {
+  content:"ディスプレイ";
+}
+
+.channelTypeB:before {
+  content:"メール";
+}
+
+.channelTypeC:before {
+  content:"アフィリエイト";
+}
+
+.channelTypeD:before {
+  content:"リスティング";
+}
+
+.channelTypeE:before {
+  content:"ソーシャル";
+}
+
+.channelTypeF:before {
+  content:"自然検索";
+}
+
+.channelTypeG:before {
+  content:"直接流入";
+}
+
+.channelTypeH:before {
+  content:"外部リンク";
+}
+
+.channelTypeI:before {
+  content:"その他";
+}
+
+.channelTypeJ:before {
+  content:"TEL";
+}
+
+.channelTypeK:before {
+  content:"セミナー";
+}
+
+.channelTypeL:before {
+  content:"イベント";
+}
+/*
+.channelTypeJ:before {
+  content:"バナー広告(Infoseek)";
+}
+*/
+.channelGroup {
+  text-align:left;
+}
+
+/*.channelGroup .btn:after {
+  content:"\279C";
+  position:relative;
+  right:-12px;
+  color:#000000;
+  font-size:8px;
+  display:inline-block;
+}*/
+
+.channelGroup .btn:after {
+   content:"";
+ display:block;
+ position:absolute;
+  　width:0px;
+  height:0px;
+  border-top:solid 11px transparent; 
+  border-right:solid 4px transparent; 
+  border-bottom:solid 10px transparent; 
+  border-left:solid 7px ;
+  color:#000000;
+  font-size:8px;
+  display:inline-block;
+  margin-top: -5px;
+  margin-left: 3px;
+}
+
+
+.channelTypeA:after {
+  color:rgb(198, 109, 77) !important;
+}
+.channelTypeB:after {
+  color:rgb(206, 160, 93) !important;
+}
+.channelTypeC:after {
+  color:rgb(213, 203, 103) !important;
+}
+.channelTypeD:after {
+  color:rgb(167, 190, 112) !important;
+}
+.channelTypeE:after {
+  color:rgb(79, 160, 158) !important;
+}
+.channelTypeF:after {
+  color:rgb(89, 129, 174)!important;
+}
+.channelTypeG:after {
+  color:rgb(100, 88, 145) !important;
+}
+.channelTypeH:after {
+  color:rgb(161, 104, 154) !important;
+}
+.channelTypeI:after {
+  color:rgb(72, 111, 172) !important;
+}
+.channelTypeJ:after {
+  color:rgb(72, 111, 172) !important;
+}
+.channelTypeK:after {
+  color:rgb(72, 111, 172) !important;
+}
+.channelTypeL:after {
+  color:rgb(72, 111, 172) !important;
+}
+.channelGroup .btn:last-child:after {
+  content:"";
+}
+
+.switch-container-mail{
+  width:120px;
+}
+
+.switch-container-mail label::after{
+  width:75px;
+}
+
+.switch-container-mail .switch:checked + label::after{
+  width:75px;
+  left:50px;
+}
+
+.switch-label2 + label::after {
+  content:"無効";
+}
+
+.switch-label2:checked + label::after {
+  content:"有効";
+}
+
+.switch-label2 + label.mail::after {
+  content:"即時";
+}
+
+.switch-label2:checked + label.mail::after {
+  content:"定期";
+}
+
+.switch-label2 + label.do-dont::after {
+  content:"しない";
+}
+
+.switch-label2:checked + label.do-dont::after {
+  content:"する";
+}
+
+.switch-label3 + label::after {
+  content:"非表示";
+}
+
+.switch-label3:checked + label::after {
+  content:"表示";
+}

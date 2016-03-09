@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>fontTest</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<style type="text/css">
+			.glyphContainer{
+				border-left: 1px solid #DDD;
+				border-right: 1px solid #DDD;
+				border-top: 2px solid #DDD;
+				border-bottom: 2px solid #DDD;
+				display: inline-block;
+				position: relative;
+				width: 12.5%;
+				float: left;
+				box-sizing: border-box;
+				height: 184px;
+				text-align: center;
+				margin-top: 20px;
+			}
+			.glyphContainer:hover{
+				border-left: 1px solid #aeaeae;
+				border-right: 1px solid #aeaeae;
+				border-top: 2px solid #aeaeae;
+				border-bottom: 2px solid #aeaeae;
+				background-color: #eaeaea;
+				z-index: 9999;
+			}
+			.glyphName,.glyphUnicode{
+				background-color:#DDD;
+				display: block;
+				box-sizing: border-box;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				font-size: 12px;
+				padding: 0;
+				margin: 0;
+				font-weight: normal;
+			}
+			.glyphContainer:hover .glyphName,.glyphContainer:hover .glyphUnicode{
+				background-color:#FFF;
+				margin: 0;
+			}
+			body{
+				font-size: 76px;
+				font-family:sans-serif;
+				padding: 0;
+				margin: 0;
+			}
+			.glyphSpan{
+				display: block;
+				padding: 0;
+				margin: 0;
+				height: 140px;
+				line-height: 140px;
+				width: 100%;
+			}
+			h2 {
+				font-size: 26px;
+				color: #aaa;
+				margin: 0;
+				padding: 0;
+			}
+			.title .grid {
+				padding: 20px 10px 0 10px;
+			}
+			h1 {
+				font-size: 44px;
+				color: #111;
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="Digit.css" />
+	<!--[if IE 7]><link rel="stylesheet" href="Digit-ie7.css"><![endif]-->
+	</head>
+	<body style="font-size: 76px;">
+		<div class="title">
+			<div class="grid">
+				<h1>Digit</h1>
+				<h2>Regular</h2>
+			</div>
+		</div>
+		<div class="glyphContainer">
+			<h3 class="glyphName">digit-fallout</h3>
+			<span class="glyphSpan digit-fallout"></span>
+			<h3 class="glyphUnicode">\F001</h3>
+		</div>
+		<div class="glyphContainer">
+			<h3 class="glyphName">digit-pageflow</h3>
+			<span class="glyphSpan digit-pageflow"></span>
+			<h3 class="glyphUnicode">\F002</h3>
+		</div>
+	</body>
+</html>
