@@ -11,12 +11,12 @@ header,.header {
 	left:0px;
 	right:0px;
 	height:60px;
-	background-color:#007FFF;
+	background-color:#f7f8f8;
 	overflow:hidden;
 }
 
 .wrapper {
-	position:relative;
+	position:absolute;
 	top:60px;
 	left:0px;
 	right:0px;
@@ -24,6 +24,7 @@ header,.header {
 	background-color:#FFFFFF;
 	min-width:1024px;
 }
+
 
 footer,.footer {
 	position:fixed;
@@ -53,14 +54,59 @@ footer:hover,.footer:hover {
 }
 
 .left-side {
-	
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 220px;
+	border-right: solid 1px #d8dde2;
+	background-color: #f7f8f8;
 }
 
 .content {
+	position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 220px;
+}
+
+.content-header{
+	height:40px;
+}
+
+.form-content {
+	position: absolute;
+top: 40px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+
+.main-content{
+	position: absolute;
+top: 0px;
+right: 0px;
+bottom: 40px;
+left: 0px;
+overflow-x:hidden;
+overflow-y: auto;
+}
+
+.action{
+	position: absolute;
+top: auto;
+right: 0px;
+bottom: 0px;
+left: 0px;
+height: 40px;
+}
+
+.action-message{
 	
 }
 
-.center-content{
+.action-bar{
 	
 }
 
@@ -69,19 +115,61 @@ footer:hover,.footer:hover {
 }
 
 .logo {
-	
+	display:inline-block;
+	width:220px;
 }
 
 .nav-top {
-	
+	display:inline-block;
 }
 
 .nav-left {
 	
 }
 
-.nav-left {
+.login-info {
+	position:absolute;
+	right:120px;
+	height:60px;
+	left:auto;
+	display:inline-block;
+}
+
+.user-image {
+	display: table-cell;
+}
+
+.user-image > img {
+    margin: 4px;
+    width: 52px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+.user-info{
+	display: table-cell;
+	white-space:nowrap;
+	padding: 0px 6px;
+	vertical-align:top;
+}
+
+.user-department {
+}
+
+.user-account {
+}
+
+.user-name {
 	
+}
+
+.department-select {
+	display: table-cell;
+width: 30px;
+}
+
+.department-select:hover {
+	background-color: #ccc;
 }
 
 .control-wrapper {
