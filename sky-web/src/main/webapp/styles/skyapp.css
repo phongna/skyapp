@@ -1,0 +1,111 @@
+html,body,form {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	bottom:auto;
+}
+header,.header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:60px;
+	background-color:#007FFF;
+	overflow:hidden;
+}
+
+.wrapper {
+	position:relative;
+	top:60px;
+	left:0px;
+	right:0px;
+	bottom:8px;
+	background-color:#FFFFFF;
+	min-width:1024px;
+}
+
+footer,.footer {
+	position:fixed;
+	top:auto;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:8px;
+	background-color:#00FF00;
+	overflow:hidden;
+}
+
+footer:hover,.footer:hover {
+	height:40px;
+}
+
+.notification {
+	position:fixed;
+	top:60px;
+	left:auto;
+	right:30px;
+	bottom:auto;
+	height:40px;
+	width:300px;
+	background-color:#00FF00;
+	overflow:hidden;
+}
+
+.left-side {
+	
+}
+
+.content {
+	
+}
+
+.center-content{
+	
+}
+
+.right-side {
+	
+}
+
+.logo {
+	
+}
+
+.nav-top {
+	
+}
+
+.nav-left {
+	
+}
+
+.nav-left {
+	
+}
+
+.control-wrapper {
+	
+}
+
+.control {
+	
+}
+
+.form-control {
+	
+}
+
+.label {
+	
+}
+
+.required {
+	
+}
+
+select, .select {
+	
+}
+
+
