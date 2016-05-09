@@ -1,0 +1,99 @@
+.container {
+	padding-right: 10px;
+}
+.form-grid {
+	display:table;
+	width:100%;
+}
+
+.form-block {
+	display:table-cell;
+}
+
+.form-grid.c2 .form-block {
+	width:50%;
+}
+
+.form-grid.c3 .form-block {
+	width:33.333%;
+}
+
+.form-grid.c4 .form-block {
+	width:25%;
+}
+
+.form-grid.c4 .form-block {
+	width:20%;
+}
+
+.form-control {
+	width:100%;
+	position: relative;
+}
+
+.form-control .label{
+	text-align:right;
+	padding: 2px 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.form-control .control > input {
+	width:100%;
+	box-sizing: border-box;
+}
+
+.form-control .control {
+	text-align:left;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.form-control .message {
+	color: #f00;
+	font-size: 0.6em;
+}
+
+.form-control.l80 .label{
+	width: 80px;
+}
+
+.form-control.l80 .control {
+	right: 0px;
+	left: 80px;
+}
+
+.form-control.l80 .message {
+	
+}
+
+.w10 {
+	width: 10%;
+}
+.w20 {
+	width: 20%;
+}
+.w30 {
+	width: 30%;
+}
+.w40 {
+	width: 40%;
+}
+.w50 {
+	width: 50%;
+}
+.w60 {
+	width: 60%;
+}
+.w70 {
+	width: 70%;
+}
+.w80 {
+	width: 80%;
+}
+.w90 {
+	width: 90%;
+}
+.w100 {
+	width: 100%;
+}
